@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy"),
+         /* Если не получилось, загрузит woff2 */
+        url("fonts/Gilroy-Regular.woff2") format("woff2"),url(fonts/Gilroy-Bold.woff2) format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+        url("fonts/.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy"),
+         /* Если не получилось, загрузит woff2 */
+        url("fonts/Gilroy-Bolditalic.woff2") format("woff2"),url("fonts/Gilroy-extrabold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+        url("fonts/Gilroy-Bolditalic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy"),
+         /* Если не получилось, загрузит woff2 */
+        url("fonts/Gilroy-Semibold.woff2") format("woff2"),url("fonts/Gilroy-Medium.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+        url("fonts/Gilroy-Semibold.woff") format("woff");
+  }
+
+
+body {
+    font-family: "Gilroy", sans-serif;
+    font-size: 1vw;
+    background: linear-gradient(0.5turn, #CBE8FF, #F6FAFF, #E1F4F7);
+    background-repeat: no-repeat;
+    }
+
+:root {
+    --orange: #FF8573;
+    --text-blue: #E1F4F7;
+    --deep-blue: #1A508B;
+}
+
