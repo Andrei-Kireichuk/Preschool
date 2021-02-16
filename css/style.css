@@ -52,5 +52,16 @@ body {
     --orange: #FF8573;
     --text-blue: #E1F4F7;
     --deep-blue: #1A508B;
+    --grey: #A6AFC1;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+    -webkit-transform: scale(.85, 1.0);
+    -moz-transform: scale(.85, 1.0);
+    -ms-transform: scale(.85, 1.0);
+    -o-transform: scale(.85, 1.0);
+    transform: scale(.85,1.0);
 }
 

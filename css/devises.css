@@ -1,0 +1,51 @@
+.devises__container {
+    margin: 0 auto;
+    max-width: 1600px;
+    position: relative;
+    background-image: url(../img/clouds-3.png);
+    background-position: 50% 0%;
+    background-size: 100% auto;
+
+    background-repeat: no-repeat;
+}
+.subtitle {
+    font-size: 2vw;
+    color: var(--deep-blue);
+    text-align: center;
+    }
+    
+    .subtitle--first {
+        padding-left: 6vw;
+    
+    }
+
+    .plane-1 {
+        position: absolute;
+        width: 29vw;
+        max-width: 495px;
+        height: auto;
+        top: -6vw;
+        left: -6vw;
+    }
+
+.devises-picture {
+    max-width: 1054px;
+    width: 60vw;
+    margin: 4vw auto 0 20vw
+}
+    
+
+
+
+
+    @media screen and (min-width: 1600px) {
+        .subtitle {
+            font-size: 32px;
+        }
+        .plane-1 {
+            
+            top: -80px;
+            left: -80px;
+        }
+
+    }
