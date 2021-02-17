@@ -1,0 +1,52 @@
+.container__setup {
+margin: 0 auto;
+max-width: 1600px;
+position: relative;
+background-image: url(../img/clouds-4.png);
+background-position: 50% 0%;
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+
+.subtitle--setup {
+    padding-top: 16vw;
+}
+.plane-4 {
+    position: absolute;
+    width: 29vw;
+    max-width: 495px;
+    height: auto;
+    top: -5vw;
+    left: 11vw;
+    transform: rotate(45deg);
+}
+
+.container__image {
+    margin: 0 auto;
+    position: relative;
+width: 100vw;
+}
+
+.preschool-image {
+    width: 113%;
+    height: auto;
+    position: relative;
+    top: 3vw;
+    left: -1vw;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.restangle--right {
+    position: absolute;
+    top: 36vw;
+    width: 100vw;
+    z-index: 2;
+}
+
+.restangle--left {
+position: absolute;
+top: 30vw;
+left: 60vw;
+width: 100vw;
+}

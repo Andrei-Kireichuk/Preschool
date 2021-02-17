@@ -12,9 +12,9 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Gilroy"),
          /* Если не получилось, загрузит woff2 */
-        url("fonts/Gilroy-Regular.woff2") format("woff2"),url(fonts/Gilroy-Bold.woff2) format("woff2"),
+        url("../fonts/Gilroy-Regular.woff2") format("woff2"),url("../fonts/Gilroy-Bold.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
-        url("fonts/.woff") format("woff");
+        url("../fonts/Gilroy-Regular.woff") format("woff");
   }
 
   @font-face {
@@ -24,9 +24,9 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Gilroy"),
          /* Если не получилось, загрузит woff2 */
-        url("fonts/Gilroy-Bolditalic.woff2") format("woff2"),url("fonts/Gilroy-extrabold.woff2") format("woff2"),
+        url("../fonts/Gilroy-Bold.woff2") format("woff2"),url("../fonts/Gilroy-Semibold.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
-        url("fonts/Gilroy-Bolditalic.woff") format("woff");
+        url("../fonts/Gilroy-Bold.woff") format("woff");
   }
   @font-face {
     font-family: "Gilroy";
@@ -35,9 +35,9 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Gilroy"),
          /* Если не получилось, загрузит woff2 */
-        url("fonts/Gilroy-Semibold.woff2") format("woff2"),url("fonts/Gilroy-Medium.woff2") format("woff2"),
+        url("../fonts/Gilroy-Semibold.woff2") format("woff2"),url("../fonts/Gilroy-Medium.woff2") format("woff2"),
          /* Если браузер не поддерживает woff2, загрузит woff */
-        url("fonts/Gilroy-Semibold.woff") format("woff");
+        url("../fonts/Gilroy-Semibold.woff") format("woff");
   }
 
 
@@ -53,15 +53,16 @@ body {
     --text-blue: #E1F4F7;
     --deep-blue: #1A508B;
     --grey: #A6AFC1;
+    --brown: #92716F;
 }
 
 h1 {
     font-size: 3em;
     font-weight: 800;
-    -webkit-transform: scale(.85, 1.0);
+    /*-webkit-transform: scale(.85, 1.0);
     -moz-transform: scale(.85, 1.0);
     -ms-transform: scale(.85, 1.0);
     -o-transform: scale(.85, 1.0);
-    transform: scale(.85,1.0);
+    transform: scale(.85,1.0);*/
 }
 

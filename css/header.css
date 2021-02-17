@@ -2,8 +2,9 @@
     margin: 0 auto;
     max-width: 1600px;
     background-image: url(../img/clouds-2.png);
-    background-position: 50% 100%;
+    background-position: 50% 0%;
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .head-notice {
@@ -77,12 +78,12 @@ flex-direction: column;
     letter-spacing: -0.2px;
     text-transform: uppercase;
     color: var(--deep-blue);
-    -webkit-transform: scale(.85, 1.0);
+    /*-webkit-transform: scale(.85, 1.0);
     -moz-transform: scale(.85, 1.0);
     -ms-transform: scale(.85, 1.0);
     -o-transform: scale(.85, 1.0);
-    transform: scale(.85,1.0);
-    margin-left: -4vw;
+    transform: scale(.85,1.0);*/
+    margin-left: 1vw;
 }
 
 .orange {
@@ -94,7 +95,6 @@ flex-direction: column;
 }
 
 .slogan {
-    margin-left: -3.5vw;
     margin-top: 1.8vw;
     line-height: 1.5em;
 }
@@ -165,7 +165,6 @@ flex-direction: column;
    
     .title {
         font-size: 32px;
-        margin-left: -44px;
     }
 
     .container__title--block {

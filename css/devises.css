@@ -9,6 +9,9 @@
     background-repeat: no-repeat;
 }
 .subtitle {
+    font-family: Gilroy, sans-serif;
+font-style: normal;
+font-weight: bold;
     font-size: 2vw;
     color: var(--deep-blue);
     text-align: center;
@@ -28,24 +31,106 @@
         left: -6vw;
     }
 
+.plane-2 {
+    position: absolute;
+    width: 29vw;
+    max-width: 495px;
+    height: auto;
+    top: 8vw;
+    right: -9vw;
+    transform: scale(-1, 1);
+}
+
+.plane-3 {
+    position: absolute;
+    width: 29vw;
+    max-width: 495px;
+    height: auto;
+    top: 43vw;
+    left: 57vw;
+}
+
 .devises-picture {
     max-width: 1054px;
-    width: 60vw;
-    margin: 4vw auto 0 20vw
+    width: 66vw;
+    margin: 4vw auto 0 18vw;
+    z-index: 3;
+    position: relative;
 }
-    
+
+.advanages__container {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.advantages {
+    display: flex;
+    margin: 7.5vw 14.2vw 0 14.2vw;
+}
+
+.advantages__item {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 4vw;
+}
+
+.marker-image {
+    width: 3vw;
+    height: auto;
+}
+
+.advantages__item--title {
+    margin-top: 1.4vw;
+    text-align: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5vw;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: var(--deep-blue);
+}
+
+.advantages__item--text {
+    margin-top: 0.5vw;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: var(--brown);
+}
 
 
 
-
-    @media screen and (min-width: 1600px) {
-        .subtitle {
-            font-size: 32px;
-        }
-        .plane-1 {
-            
-            top: -80px;
-            left: -80px;
-        }
-
+@media screen and (min-width: 1600px) {
+    .subtitle {
+        font-size: 32px;
     }
+    .plane-1 {
+        top: -80px;
+        left: -80px;
+    }
+    .plane-2 {
+        top: 130px;
+        right: -148px;
+    }
+
+    .plane-3 {
+        top: 678px;
+        right: -148px;
+    }
+    .advantages {
+        margin: 7.5vw 225px 0 225px;
+    }
+
+    .advantages__item--text {
+        font-size: 14px;
+    }
+
+    .advantages__item--title {
+        font-size: 24px;
+}
