@@ -24,29 +24,29 @@ background-repeat: no-repeat;
 .container__image {
     margin: 0 auto;
     position: relative;
-width: 100vw;
+width: 100%;
+overflow: hidden;
 }
 
 .preschool-image {
-    width: 113%;
+    width: 113vw;
     height: auto;
     position: relative;
     top: 3vw;
-    left: -1vw;
     z-index: 10;
-    overflow: hidden;
+
 }
 
 .restangle--right {
-    position: absolute;
-    top: 36vw;
-    width: 100vw;
+   width: 100vw;
+   position: relative;
     z-index: 2;
+    margin-top: -5vw;
 }
 
 .restangle--left {
-position: absolute;
-top: 30vw;
-left: 60vw;
 width: 100vw;
+position: relative;
+z-index: 1;
+margin: -27vw 0 0 50vw;
 }

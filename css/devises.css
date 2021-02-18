@@ -39,6 +39,7 @@ font-weight: bold;
     top: 8vw;
     right: -9vw;
     transform: scale(-1, 1);
+    overflow: hidden;
 }
 
 .plane-3 {

@@ -1,0 +1,102 @@
+.devises-description__container {
+    margin: 0 auto;
+    background-color: var(--text-blue);
+    position: relative;
+    top: -43vw;
+    z-index: 5;
+}
+
+.picture-description__container {
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.tablet-picture {
+    margin-left: 10.5vw;
+    max-width: 618px;
+    max-height: 420px;
+    width: 40vw;
+    height: auto;
+}
+
+.describtion__item {
+    margin: 2vw 19vw 0 2vw;
+}
+
+.left {
+    text-align: left;
+}
+
+.description__quote {
+    font-family: 'Mulish';
+    margin-top: 0.8vw;
+    font-size: 0.8vw;
+    letter-spacing: 0.06vw;
+    text-align: left;
+    color: var(--grey);
+}
+
+.description__text {
+    margin-top: 1.5vw;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    line-height: 1.1vw;
+    letter-spacing: 0.1px;
+    color: var(--brown);
+}
+
+.text-list {
+    margin-top: 0.5vw;
+}
+
+.description__button {
+    margin-top: 2vw;
+    padding-right: 1vw;
+    position: relative;
+    background-color: var(--orange);
+    max-width: 378px;
+    width: 25vw;
+    height: 5vw;
+    max-height: 52px;
+    color: white;
+    border-radius: 0.8vw;
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.arrow {
+    top: 41%;
+    right: 1.2vw;
+    position: absolute;
+    width: 1vw;
+    height: auto;
+}
+
+
+
+
+@media screen and (min-width: 1600px) {
+    .description__quote {
+        font-size: 14px;
+    }
+
+    .description__text {
+        font-size: 14px;
+    }
+
+    .description__button {
+        font-size: 16px;
+    }
+
+    .describtion__item {
+        margin-right: 284px;
+    }
+}
