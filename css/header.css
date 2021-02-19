@@ -68,6 +68,7 @@ flex-direction: column;
 .container__title--block {
     margin-left: 12.5vw;
     margin-bottom: 11.1vw;
+    margin-right: 0.5vw;
 }
 
 .title {
@@ -95,8 +96,8 @@ flex-direction: column;
 }
 
 .slogan {
-    margin-top: 1.8vw;
-    line-height: 1.5em;
+    margin-top: 1.7vw;
+    line-height: 4.3vw;
 }
 
 .p--small {
@@ -132,17 +133,6 @@ flex-direction: column;
     margin: -4.5vw 0 0 -2vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1600px) {
     .head-notice {
         font-size: 20px;
@@ -169,12 +159,21 @@ flex-direction: column;
 
     .container__title--block {
         max-width: 740px;
-        margin-left: 190px;
+        margin-left: 200px;
         margin-bottom: 165px;
     }
 
     .slogan {
-        font-size: 50px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 72px;
+    }
+
+    .p--small {
+        font-size: 16px;
+        margin-top: 22px;
     }
 
     .button__trial {

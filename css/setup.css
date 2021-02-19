@@ -24,8 +24,9 @@ background-repeat: no-repeat;
 .container__image {
     margin: 0 auto;
     position: relative;
-width: 100%;
-overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    max-height: 42vw;
 }
 
 .preschool-image {

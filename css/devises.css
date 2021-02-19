@@ -5,13 +5,13 @@
     background-image: url(../img/clouds-3.png);
     background-position: 50% 0%;
     background-size: 100% auto;
-
+    overflow: hidden;
     background-repeat: no-repeat;
 }
 .subtitle {
-    font-family: Gilroy, sans-serif;
-font-style: normal;
-font-weight: bold;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 2vw;
     color: var(--deep-blue);
     text-align: center;
@@ -27,7 +27,7 @@ font-weight: bold;
         width: 29vw;
         max-width: 495px;
         height: auto;
-        top: -6vw;
+        top: -5vw;
         left: -6vw;
     }
 
@@ -99,7 +99,7 @@ margin: 0 4vw;
     font-style: normal;
     font-weight: bold;
     font-size: 0.9vw;
-    line-height: 22px;
+    line-height: 1.3vw;
     text-align: center;
     letter-spacing: 0.1px;
     color: var(--brown);
@@ -112,7 +112,7 @@ margin: 0 4vw;
         font-size: 32px;
     }
     .plane-1 {
-        top: -80px;
+        top: 10px;
         left: -80px;
     }
     .plane-2 {

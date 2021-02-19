@@ -2,15 +2,24 @@
     margin: 0 auto;
     background-color: var(--text-blue);
     position: relative;
-    top: -43vw;
     z-index: 5;
 }
 
 .picture-description__container {
     max-width: 1600px;
-    display: flex;
     margin: 0 auto;
+    padding-top: 1vw;
+    position: relative;
+    display: flex;
     justify-content: center;
+    background-image: url(../img/flowers.png);
+    background-position: 50% 0%;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+.devises-description__container .picture-description__container:not(:first-child) {
+    margin-top: 10.7vw;
 }
 
 .tablet-picture {
@@ -21,8 +30,20 @@
     height: auto;
 }
 
+.tablet-picture--right {
+    margin-right: 10.5vw;
+    max-width: 618px;
+    max-height: 420px;
+    width: 40vw;
+    height: auto;
+}
+
 .describtion__item {
-    margin: 2vw 19vw 0 2vw;
+    margin: 2vw 17vw 0 4vw;
+}
+
+.describtion__item--left{
+margin: 2vw 8vw 0 13vw;
 }
 
 .left {
@@ -80,10 +101,105 @@
     height: auto;
 }
 
+.baloon-left {
+    position: absolute;
+    top: 29vw;
+    left: 6vw;
+    width: 11vw;
+    height: auto;
+    max-width: 170px;
+}
+
+.baloon-right {
+    margin-top: 21.5vw;
+    margin-left: 77vw;
+    position: absolute;
+    width: 9vw;
+    height: auto;
+    max-width: 143px;
+}
+
+.picture--mobile {
+    margin-right: 2vw;
+}
+
+.mom-container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.restangle-1 {
+    position: absolute;
+    width: 100%;
+    top: 9vw;
+    z-index: 1;
+}
+
+.mom__block {
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    max-height: 220px;
+    width: 80vw;
+    height: 15vw;
+    margin: 9vw auto 10vw auto;
+    background-color: white;
+    border-radius: 1vw;
+    overflow: visible;
+    z-index: 2;
+
+}
+
+.mom__picture {
+    width: 20vw;
+    max-width: 370px;
+    height: 16vw;
+    margin-left: 5vw;
+    margin-top: -3vw;
+}
+
+.mom-says {
+    position: absolute;
+    width: 44vw;
+    left: 24vw;
+    top: 1vw;
+    max-width: 714px;
+}
+
+.mom-text__container {
+    position: relative;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.mom__title {
+    margin-top: 2.5vw;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2vw;
+    letter-spacing: 0.2px;
+    color: var(--orange);
+}
+
+.mom__text {
+    margin-top: 1.5vw;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5vw;
+    line-height: 133%;
+   color: var(--deep-blue);
+}
 
 
 
 @media screen and (min-width: 1600px) {
+    .mom__text {
+        font-size: 24px;
+    }
+
+    
     .description__quote {
         font-size: 14px;
     }
