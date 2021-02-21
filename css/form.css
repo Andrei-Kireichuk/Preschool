@@ -1,0 +1,133 @@
+.form__container {
+    margin: 0 auto;
+}
+
+.baloon-low {
+    position: relative;
+    z-index: 2;
+    width: 11vw;
+    height: auto;
+    max-width: 170px;
+}
+
+.form__block {
+    max-width: 1200px;
+    max-height: 822px;
+    margin: 4vw 12.5vw 6vw 12.5vw;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.form__item {
+    width: 50%;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: block;
+}
+
+.form__input {
+    width: 80%;
+    margin-top: 2.25vw;
+    padding-bottom: 1vw;
+    border: none;
+    color: var(--dark-grey);
+    border-bottom: 1px solid var(--lite-grey);
+    font-size: 0.9vw;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+.form__title {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: bold;
+font-size: 2.2vw;
+line-height: 39px;
+letter-spacing: 0.1px;
+color: var(--deep-blue);
+}
+
+.form__text {
+margin-top: 0.5vw;
+margin-bottom: 0.5vw;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: bold;
+font-size: 0.9vw;
+line-height: 1.1vw;
+letter-spacing: 0.1px;
+color: var(--brown);
+}
+
+.form__text--question {
+    margin-top: 2.5vw;
+    margin-bottom: -0.8vw;
+    color: var(--deep-blue);
+}
+
+.button__submit {
+    width: 79%;
+    margin-top: 2.5vw;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1vw;
+    color: white;
+    background-color: var(--orange);
+    border: none;
+    padding: 0.9vw 1vw;
+    border-radius: 0.7vw;
+}
+
+.parents-group {
+    width: 55%;
+    max-width: 660px;
+    height: auto;
+}
+
+
+@media screen and (min-width: 1600px) {
+    
+    .form__block {
+        max-width: 1200px;
+        max-height: 822px;
+        margin: 63px auto 60px auto;
+    }
+    
+    .form__item {
+        max-height: 660px;
+        margin-left: 80px;
+    }
+
+    .form__title {
+        font-size: 36px;
+    }
+
+    .form__text {
+        margin-top: 14px;
+        margin-bottom: 7px;
+        font-size: 14px;
+        }
+
+        .form__input {
+            margin-top: 35px;
+        padding-bottom: 16px;
+        font-size: 14px;
+        }
+
+        .form__text--question {
+            margin-top: 45px;
+            margin-bottom: -15px;
+        }
+
+        .button__submit {
+            width: 79%;
+            margin-top: 43px;
+            font-size: 16px;
+            padding: 14px 20px;
+            border-radius: 12px;
+}
+
