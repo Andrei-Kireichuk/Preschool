@@ -1,222 +1,235 @@
 .devises-description__container {
-    margin: 0 auto;
-    background-color: var(--text-blue);
-    position: relative;
-    z-index: 5;
+  margin: 0 auto;
+  background-color: var(--text-blue);
+  position: relative;
+  z-index: 5;
 }
 
 .picture-description__container {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-top: 1vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    background-image: url(../img/flowers.png);
-    background-position: 50% 0%;
-    background-size: 80% auto;
-    background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 1vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/flowers.png);
+  background-position: 50% 0%;
+  background-size: 80% auto;
+  background-repeat: no-repeat;
 }
 
-.devises-description__container .picture-description__container:not(:first-child) {
-    margin-top: 10.7vw;
+.devises-description__container
+  .picture-description__container:not(:first-child) {
+  margin-top: 10.7vw;
 }
 
 .tablet-picture {
-    margin-left: 10.5vw;
-    max-width: 618px;
-    max-height: 420px;
-    width: 40vw;
-    height: auto;
+  margin-left: 10.5vw;
+  max-width: 618px;
+  max-height: 420px;
+  width: 40vw;
+  height: auto;
 }
 
 .tablet-picture--right {
-    margin-right: 10.5vw;
-    max-width: 618px;
-    max-height: 420px;
-    width: 40vw;
-    height: auto;
+  margin-right: 10.5vw;
+  max-width: 618px;
+  max-height: 420px;
+  width: 40vw;
+  height: auto;
 }
 
 .describtion__item {
-    margin: 2vw 17vw 0 4vw;
+  margin: 2vw 17vw 0 4vw;
 }
 
-.describtion__item--left{
-margin: 2vw 8vw 0 13vw;
+.describtion__item--left {
+  margin: 2vw 8vw 0 13vw;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 .description__quote {
-    font-family: 'Mulish';
-    margin-top: 0.8vw;
-    font-size: 0.8vw;
-    letter-spacing: 0.06vw;
-    text-align: left;
-    color: var(--grey);
+  font-family: "Mulish";
+  margin-top: 0.8vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.06vw;
+  text-align: left;
+  color: var(--grey);
 }
 
 .description__text {
-    margin-top: 1.5vw;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.9vw;
-    line-height: 1.1vw;
-    letter-spacing: 0.1px;
-    color: var(--brown);
+  margin-top: 1.5vw;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  letter-spacing: 0.1px;
+  color: var(--brown);
 }
 
 .text-list {
-    margin-top: 0.5vw;
+  margin-top: 0.5vw;
 }
 
 .description__button {
-    margin-top: 2vw;
-    padding-right: 1vw;
-    position: relative;
-    background-color: var(--orange);
-    max-width: 378px;
-    width: 25vw;
-    height: 5vw;
-    max-height: 52px;
-    color: white;
-    border-radius: 0.8vw;
-    border: none;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1vw;
-    cursor: pointer;
+  margin-top: 2vw;
+  padding-right: 1vw;
+  position: relative;
+  background-color: var(--orange);
+  max-width: 378px;
+  width: 25vw;
+  height: 5vw;
+  max-height: 52px;
+  color: white;
+  border-radius: 0.8vw;
+  border: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1vw;
+  cursor: pointer;
 }
 
 .arrow {
-    top: 41%;
-    right: 1.2vw;
-    position: absolute;
-    width: 1vw;
-    height: auto;
+  top: 41%;
+  right: 1.2vw;
+  position: absolute;
+  width: 1vw;
+  height: auto;
 }
 
 .baloon-left {
-    position: absolute;
-    top: 29vw;
-    left: 6vw;
-    width: 11vw;
-    height: auto;
-    max-width: 170px;
+  position: absolute;
+  top: 29vw;
+  left: 6vw;
+  width: 11vw;
+  height: auto;
+  max-width: 170px;
 }
 
 .baloon-right {
-    margin-top: 21.5vw;
-    margin-right: 0vw;
-    position: absolute;
-    width: 9vw;
-    height: auto;
-    max-width: 143px;
+  margin-top: 21.5vw;
+  margin-right: -77vw;
+  position: absolute;
+  width: 9vw;
+  height: auto;
+  max-width: 143px;
 }
 
 .picture--mobile {
-    margin-right: 2vw;
+  margin-right: 2vw;
 }
 
 .mom-container {
-    margin: 0 auto;
-    position: relative;
+  margin: 0 auto;
+  position: relative;
 }
 
 .restangle-1 {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 9vw;
-    z-index: 1;
-    max-height: 949px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 9vw;
+  z-index: 0;
+  max-height: 949px;
+}
+
+.restangle-2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 27vw;
+  z-index: 0;
+}
+
+.restangle-3 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 40vw;
+  z-index: 0;
 }
 
 .mom__block {
-    position: relative;
-    display: flex;
-    max-width: 1200px;
-    max-height: 220px;
-    width: 80vw;
-    height: 15vw;
-    margin: 9vw auto 10vw auto;
-    background-color: white;
-    border-radius: 1vw;
-    overflow: visible;
-    z-index: 2;
-
+  position: relative;
+  display: flex;
+  max-width: 1200px;
+  max-height: 220px;
+  width: 80vw;
+  height: 15vw;
+  margin: 9vw auto 10vw auto;
+  background-color: white;
+  border-radius: 1vw;
+  overflow: visible;
+  z-index: 2;
 }
 
 .mom__picture {
-    width: 20vw;
-    max-width: 370px;
-    height: 16vw;
-    max-height: 260px;
-    margin-left: 5vw;
-    margin-top: -3vw;
+  width: 20vw;
+  max-width: 370px;
+  height: 16vw;
+  max-height: 260px;
+  margin-left: 5vw;
+  margin-top: -3vw;
 }
 
 .mom-says {
-    position: absolute;
-    width: 44vw;
-    left: 24vw;
-    top: 1vw;
-    max-width: 714px;
+  position: absolute;
+  width: 44vw;
+  left: 24vw;
+  top: 1vw;
+  max-width: 714px;
 }
 
 .mom-text__container {
-    position: relative;
-    margin-left: 6vw;
-    margin-right: 6vw;
+  position: relative;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 
 .mom__title {
-    margin-top: 2.5vw;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 2vw;
-    letter-spacing: 0.2px;
-    color: var(--orange);
+  margin-top: 2.5vw;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2vw;
+  letter-spacing: 0.2px;
+  color: var(--orange);
 }
 
 .mom__text {
-    margin-top: 1.5vw;
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 1.5vw;
-    line-height: 133%;
-   color: var(--deep-blue);
+  margin-top: 1.5vw;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5vw;
+  line-height: 133%;
+  color: var(--deep-blue);
 }
 
-
-
 @media screen and (min-width: 1600px) {
-    .mom__text {
-        font-size: 24px;
-        margin-top: 15px;
-    }
+  .mom__text {
+    font-size: 24px;
+    margin-top: 15px;
+  }
 
-    
-    .description__quote {
-        font-size: 14px;
-    }
+  .description__quote {
+    font-size: 14px;
+  }
 
-    .description__text {
-        font-size: 14px;
-    }
+  .description__text {
+    font-size: 14px;
+  }
 
-    .description__button {
-        font-size: 16px;
-    }
+  .description__button {
+    font-size: 16px;
+  }
 
-    .describtion__item {
-        margin-right: 284px;
-    }
+  .describtion__item {
+    margin-right: 284px;
+  }
 }
