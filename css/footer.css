@@ -1,0 +1,12 @@
+.footer {
+  position: relative;
+  background-color: var(--deep-blue);
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+.footer__wrapper {
+  display: flex;
+}
