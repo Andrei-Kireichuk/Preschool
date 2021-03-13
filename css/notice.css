@@ -7,7 +7,7 @@
 .notice__block {
   display: flex;
   position: relative;
-  margin: 8vw 12.5vw;
+  margin: 8vw 12.5vw 0 12.5vw;
   background-color: var(--orange);
   height: 14vw;
   max-width: 1200px;
@@ -69,7 +69,7 @@
 @media screen and (min-width: 1600px) {
   .notice__block {
     position: relative;
-    margin: 8vw 200px;
+    margin: 152px 200px 52px 200px;
     border-radius: 24px;
   }
 

@@ -1,6 +1,11 @@
 .background-picture__container {
   background-color: #e1f4f7;
   overflow: visible;
+  background-image: url(../img/Rectangle-3.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 101%;
+  background-size: 100% auto;
+  padding-bottom: 4vw;
 }
 
 .form__container {
