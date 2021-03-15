@@ -1,191 +1,308 @@
 .header {
-    margin: 0 auto;
-    max-width: 1600px;
-    background-image: url(../img/clouds-2.png);
-    background-position: 50% 0%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1600px;
+  background-image: url(../img/clouds-2.png);
+  background-position: 50% 0%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .head-notice {
-    margin: 1.75vw 12.5vw 0 12.5vw;
-    text-align: center;
-    padding-top: 1.3em;
-    font-size: 1.23em;
-    background-color: var(--orange);
-    color: var(--text-blue);
-    border-radius: 1.2em;
-    height: 4em;
-    font-weight: 600;
+  margin: 1.75vw 12.5vw 0 12.5vw;
+  text-align: center;
+  padding-top: 26px;
+  font-size: 20px;
+  background-color: var(--orange);
+  color: var(--text-blue);
+  border-radius: 1.2vw;
+  height: 4em;
+  font-weight: 600;
 }
 
 .container__header {
-    display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 .header__button {
-    margin: 2vw 12.5vw 0 auto;
-    width: 9.3em;
-    height: 2.4em;
-    background: transparent;
-    color: var(--deep-blue);
-    border: 1px solid var(--deep-blue);
-    border-radius: 0.5em;
-    font-weight: 600;
-    font-size: 1.23em;
+  margin: 2vw 12.5vw 0 auto;
+  width: 9.3em;
+  height: 2.4em;
+  background: transparent;
+  color: var(--deep-blue);
+  border: 1px solid var(--deep-blue);
+  border-radius: 0.5em;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .header__button:hover {
-    background: var(--deep-blue);
-    color: var(--text-blue);
-    border: 1px solid var(--deep-blue);
-    transition: 0.2s;
-    cursor: pointer;
+  background: var(--deep-blue);
+  color: var(--text-blue);
+  border: 1px solid var(--deep-blue);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .font--span {
-    font-size: 0.75em;
+  font-size: 14px;
 }
 
 .elefant {
-    margin-left: 12.5vw;
-    margin-top: -3.5vw;
-    width: 10vw;
-    max-width: 156px;
-    height: auto;
+  margin-left: 12.5vw;
+  margin-top: -3.5vw;
+  width: 10vw;
+  max-width: 156px;
+  min-width: 119px;
+  height: auto;
 }
 
 .container__title {
-    display: flex;
-    max-width: 1600px;
+  display: flex;
+  max-width: 1600px;
 }
 
 .container__title--block {
-    margin-left: 12.5vw;
-    margin-bottom: 11.1vw;
-    margin-right: 0.5vw;
+  margin-left: 12.5vw;
+  margin-bottom: 11.1vw;
+  margin-right: 0.5vw;
 }
 
 .title {
-    margin-top: 0.7vw;
-    font-weight: 800;
-    font-size: 2vw;
-    line-height: 40px;
-    letter-spacing: -0.2px;
-    text-transform: uppercase;
-    color: var(--deep-blue);
-    /*-webkit-transform: scale(.85, 1.0);
+  margin-top: 0.7vw;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: var(--deep-blue);
+  /*-webkit-transform: scale(.85, 1.0);
     -moz-transform: scale(.85, 1.0);
     -ms-transform: scale(.85, 1.0);
     -o-transform: scale(.85, 1.0);
     transform: scale(.85,1.0);*/
-    margin-left: 1vw;
+  margin-left: 1vw;
 }
 
 .orange {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .deep-blue {
-    color: var(--deep-blue);
+  color: var(--deep-blue);
 }
 
 .slogan {
-    margin-top: 1.7vw;
-    line-height: 4.3vw;
+  margin-top: 1.7vw;
+  line-height: 4.3vw;
 }
 
 .p--small {
-    margin-top: 1.9vw;
-    word-spacing: 6px;
-    color: var(--grey);
+  margin-top: 1.9vw;
+  word-spacing: 6px;
+  color: var(--grey);
 }
 
 .button__trial {
+  margin-top: 3.7vw;
+  margin-right: 12px;
+  width: 190px;
+  height: 50px;
+  background: transparent;
+  color: var(--deep-blue);
+  border: 1px solid var(--deep-blue);
+  border-radius: 0.8vw;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button__trial:hover {
+  background: var(--deep-blue);
+  color: var(--text-blue);
+  border: 1px solid var(--deep-blue);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.faces-picture {
+  width: 36vw;
+  max-width: 570px;
+  height: auto;
+  margin: -4.5vw 0 0 -2vw;
+}
+
+@media screen and (min-width: 1600px) {
+  .head-notice {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .header__button {
+    font-size: 20px;
+    margin-right: 200px;
+  }
+
+  .header__button span {
+    font-size: 14px;
+  }
+
+  .elefant {
+    margin-left: 200px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .container__title--block {
+    max-width: 740px;
+    margin-left: 200px;
+    margin-bottom: 165px;
+  }
+
+  .slogan {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 72px;
+  }
+
+  .p--small {
+    font-size: 16px;
+    margin-top: 22px;
+  }
+
+  .button__trial {
     margin-top: 3.7vw;
     margin-right: 12px;
-    width: 11.7vw;
-    height: 3.2vw;
+    width: 190px;
+    height: 50px;
     background: transparent;
     color: var(--deep-blue);
     border: 1px solid var(--deep-blue);
     border-radius: 0.8vw;
     font-weight: 600;
-    font-size: 0.9vw;
+    font-size: 14px;
+  }
 }
 
-.button__trial:hover {
-    background: var(--deep-blue);
-    color: var(--text-blue);
-    border: 1px solid var(--deep-blue);
-    transition: 0.2s;
-    cursor: pointer;
+@media screen and (max-width: 1200px) {
+  .head-notice {
+    font-size: 18px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 11px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .p--small {
+    font-size: 13px;
+    word-spacing: 2px;
+  }
 }
-.faces-picture {
-    width: 36vw;
-    max-width: 570px;
-    height: auto;
-    margin: -4.5vw 0 0 -2vw;
+
+@media screen and (max-width: 786px) {
+  .head-notice {
+    font-size: 16px;
+  }
+
+  .p--small {
+    font-size: 14px;
+  }
+
+  .elefant {
+    margin-left: 4vw;
+  }
+
+  .header__button {
+    margin: 2vw 21.5vw 0 auto;
+    width: 9.3em;
+    height: 2.4em;
+    background: transparent;
+    color: var(--deep-blue);
+    border: transparent;
+    border-radius: 0.5em;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .header__button::after {
+    position: relative;
+    content: url(../img/Group\ 2572.svg);
+    top: 7px;
+    left: 4px;
+  }
+
+  .header__button:hover {
+    background-color: transparent;
+    color: var(--deep-blue);
+    border: transparent;
+  }
+
+  .elefant {
+    margin-left: 12.5vw;
+  }
+
+  .container__title {
+    display: inline;
+  }
+
+  .container__title--block {
+    margin-left: 7.5vw;
+    margin-right: 1vw;
+  }
+
+  .slogan {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .button__container {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 1vw;
+  }
+
+  .container__title--picture {
+    display: flex;
+  }
+
+  .faces-picture {
+    margin: 0 auto;
+    width: 80vw;
+  }
 }
 
-@media screen and (min-width: 1600px) {
-    .head-notice {
-        font-size: 20px;
-        margin-left: 200px;
-        margin-right: 200px;
-    }
+@media screen and (max-width: 600px) {
+  .head-notice {
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: -0.1px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 0px;
+    padding-top: 40px;
+    height: 94px;
+  }
 
-    .header__button {
-    font-size: 20px;
-    margin-right: 200px;
-    }
+  .header__button {
+    margin: 2vw 1.5vw 0 auto;
+  }
 
-    .header__button span {
-        font-size: 14px;
-    }
-
-    .elefant {
-        margin-left: 200px;
-    }
-   
-    .title {
-        font-size: 32px;
-    }
-
-    .container__title--block {
-        max-width: 740px;
-        margin-left: 200px;
-        margin-bottom: 165px;
-    }
-
-    .slogan {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 52px;
-        line-height: 72px;
-    }
-
-    .p--small {
-        font-size: 16px;
-        margin-top: 22px;
-    }
-
-    .button__trial {
-        margin-top: 3.7vw;
-        margin-right: 12px;
-        width: 190px;
-        height: 50px;
-        background: transparent;
-        color: var(--deep-blue);
-        border: 1px solid var(--deep-blue);
-        border-radius: 0.8vw;
-        font-weight: 600;
-        font-size: 14px;
-    }
+  .button__trial {
+    font-size: 12px;
+    border-radius: 10px;
+  }
 }
