@@ -1,137 +1,175 @@
 .devises__container {
-    margin: 0 auto;
-    max-width: 1600px;
-    position: relative;
-    background-image: url(../img/clouds-3.png);
-    background-position: 50% 0%;
-    background-size: 100% auto;
-    overflow: hidden;
-    background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+  background-image: url(../img/clouds-3.png);
+  background-position: 50% 0%;
+  background-size: 100% auto;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
 .subtitle {
-    font-family: 'Gilroy', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2vw;
-    color: var(--deep-blue);
-    text-align: center;
-    }
-    
-    .subtitle--first {
-        padding-left: 6vw;
-    
-    }
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--deep-blue);
+  text-align: center;
+}
 
-    .plane-1 {
-        position: absolute;
-        width: 29vw;
-        max-width: 495px;
-        height: auto;
-        top: -5vw;
-        left: -6vw;
-    }
+.subtitle--first {
+  padding-left: 6vw;
+  max-width: 1000px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.plane-1 {
+  position: absolute;
+  width: 29vw;
+  max-width: 495px;
+  height: auto;
+  top: 0vw;
+  left: -6vw;
+}
 
 .plane-2 {
-    position: absolute;
-    width: 29vw;
-    max-width: 495px;
-    height: auto;
-    top: 8vw;
-    right: -9vw;
-    transform: scale(-1, 1);
-    overflow: hidden;
+  position: absolute;
+  width: 29vw;
+  max-width: 495px;
+  height: auto;
+  top: 8vw;
+  right: -9vw;
+  transform: scale(-1, 1);
+  overflow: hidden;
 }
 
 .plane-3 {
-    position: absolute;
-    width: 29vw;
-    max-width: 495px;
-    height: auto;
-    top: 43vw;
-    left: 57vw;
+  position: absolute;
+  width: 29vw;
+  max-width: 495px;
+  height: auto;
+  top: 43vw;
+  left: 57vw;
 }
 
 .devises-picture {
-    max-width: 1054px;
-    width: 66vw;
-    margin: 4vw auto 0 18vw;
-    z-index: 3;
-    position: relative;
+  max-width: 1054px;
+  width: 66vw;
+  margin: 4vw auto 0 18vw;
+  z-index: 3;
+  position: relative;
 }
 
 .advanages__container {
-    margin: 0 auto;
-    max-width: 1600px;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
 .advantages {
-    display: flex;
-    margin: 7.5vw 14.2vw 0 14.2vw;
+  display: flex;
+  margin: 7.5vw 14.2vw 0 14.2vw;
 }
 
 .advantages__item {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 0 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4vw;
 }
 
 .marker-image {
-    width: 3vw;
-    height: auto;
+  width: 3vw;
+  height: auto;
 }
 
 .advantages__item--title {
-    margin-top: 1.4vw;
-    text-align: center;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.5vw;
-    line-height: 30px;
-    letter-spacing: 0.1px;
-    color: var(--deep-blue);
+  margin-top: 1.4vw;
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: var(--deep-blue);
 }
 
 .advantages__item--text {
-    margin-top: 0.5vw;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.9vw;
-    line-height: 1.3vw;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: var(--brown);
+  margin-top: 0.5vw;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: var(--brown);
 }
 
-
-
 @media screen and (min-width: 1600px) {
-    .subtitle {
-        font-size: 32px;
-    }
-    .plane-1 {
-        top: 10px;
-        left: -80px;
-    }
-    .plane-2 {
-        top: 130px;
-        right: -148px;
-    }
+  .subtitle {
+    font-size: 32px;
+  }
+  .plane-1 {
+    top: 10px;
+    left: -80px;
+  }
+  .plane-2 {
+    top: 130px;
+    right: -148px;
+  }
 
-    .plane-3 {
-        top: 678px;
-        right: -148px;
-    }
-    .advantages {
-        margin: 7.5vw 225px 0 225px;
-    }
+  .plane-3 {
+    top: 678px;
+    right: -148px;
+  }
+  .advantages {
+    margin: 7.5vw 225px 0 225px;
+  }
 
-    .advantages__item--text {
-        font-size: 14px;
-    }
+  .advantages__item--text {
+    font-size: 14px;
+  }
 
-    .advantages__item--title {
-        font-size: 24px;
+  .advantages__item--title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle {
+    font-size: 28px;
+  }
+  .advantages__item {
+    margin: 0 2vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .advantages {
+    flex-direction: column;
+    width: 60vw;
+    margin: 8vw auto;
+  }
+
+  .marker-image {
+    width: 50px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .subtitle {
+    font-size: 24px;
+    padding-top: 4vw;
+  }
+
+  .devises-picture {
+    width: 80%;
+    margin-left: 10%;
+  }
 }

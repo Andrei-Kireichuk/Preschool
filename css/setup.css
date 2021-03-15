@@ -1,53 +1,58 @@
 .container__setup {
-margin: 0 auto;
-max-width: 1600px;
-position: relative;
-background-image: url(../img/clouds-4.png);
-background-position: 50% 0%;
-background-size: 100% auto;
-background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+  background-image: url(../img/clouds-4.png);
+  background-position: 50% 0%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .subtitle--setup {
-    padding-top: 16vw;
+  padding-top: 16vw;
 }
 .plane-4 {
-    position: absolute;
-    width: 29vw;
-    max-width: 495px;
-    height: auto;
-    top: -5vw;
-    left: 11vw;
-    transform: rotate(45deg);
+  position: absolute;
+  width: 29vw;
+  max-width: 495px;
+  height: auto;
+  top: -5vw;
+  left: 11vw;
+  transform: rotate(45deg);
 }
 
 .container__image {
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    max-height: 42vw;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-height: 42vw;
 }
 
 .preschool-image {
-    width: 113vw;
-    height: auto;
-    position: relative;
-    top: 3vw;
-    z-index: 10;
-
+  width: 113vw;
+  height: auto;
+  position: relative;
+  top: 3vw;
+  z-index: 10;
 }
 
 .restangle--right {
-   width: 100vw;
-   position: relative;
-    z-index: 2;
-    margin-top: -5vw;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+  margin-top: -5vw;
 }
 
 .restangle--left {
-width: 100vw;
-position: relative;
-z-index: 1;
-margin: -27vw 0 0 50vw;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+  margin: -27vw 0 0 50vw;
+}
+
+@media screen and (max-width: 786px) {
+  .container__setup {
+    margin: 0 2vw;
+  }
 }

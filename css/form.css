@@ -155,3 +155,9 @@
     color: white;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .baloon-low {
+    display: none;
+  }
+}
