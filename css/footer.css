@@ -80,3 +80,32 @@ li {
   margin-right: 25px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  .footer__block--left {
+    margin-left: 13vw;
+  }
+  .footer__block--right {
+    margin-right: 13vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__wrapper {
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+  }
+  .footer__block--right {
+    text-align: left;
+    margin-left: 13vw;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__block--left,
+  .footer__block--right {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

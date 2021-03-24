@@ -179,6 +179,7 @@
   }
   .form__block {
     flex-direction: column-reverse;
+    max-height: 1150px;
   }
 
   .form__item {

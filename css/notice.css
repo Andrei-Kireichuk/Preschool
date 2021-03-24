@@ -29,7 +29,7 @@
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
-  font-size: 1.505vw;
+  font-size: 24px;
   line-height: 133%;
   letter-spacing: 0.2px;
   color: white;
@@ -41,13 +41,15 @@
   max-height: 48px;
   padding: 1vw 2vw;
   margin-top: 1.4vw;
+  position: relative;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;
-  font-size: 1.5vw;
+  font-size: 16px;
   color: var(--orange);
   background-color: white;
   border: transparent;
+  z-index: 10;
 }
 
 .big__elefant {
@@ -86,5 +88,72 @@
     padding: 15px 34px;
     font-size: 16px;
     border-radius: 12px;
+    z-index: 10;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .notice__block--left {
+    width: 65%;
+    margin-left: 50px;
+  }
+
+  .notice__block {
+    height: 260px;
+  }
+
+  .notice__virus--small {
+    top: 140px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .notice__block--left {
+    width: 60%;
+    margin-left: 45px;
+  }
+
+  .big__elefant {
+    width: 202px;
+    max-width: 361px;
+    position: absolute;
+    top: -13vw;
+    left: 65%;
+  }
+
+  .notice__container {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .big__elefant {
+    left: 35%;
+    top: -210px;
+  }
+  .notice__container {
+    margin-top: 220px;
+  }
+
+  .notice__block {
+    height: 390px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+  }
+
+  .notice__text {
+    font-size: 18px;
+  }
+
+  .notice__block--left {
+    width: 80%;
+    margin-left: 0;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .notice__text {
+    padding-bottom: 20px;
   }
 }
