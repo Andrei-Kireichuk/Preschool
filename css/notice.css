@@ -36,10 +36,10 @@
 }
 
 .notice__button {
-  border-radius: 1vw;
-  max-width: 209px;
+  border-radius: 12px;
+  max-width: 225px;
   max-height: 48px;
-  padding: 1vw 2vw;
+  padding: 1vw 15px;
   margin-top: 1.4vw;
   position: relative;
   font-family: "Gilroy";
